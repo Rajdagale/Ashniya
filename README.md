@@ -1,2 +1,0 @@
-# Ashniya-birthday
-
