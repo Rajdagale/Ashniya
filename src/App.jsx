@@ -431,7 +431,7 @@ export default function App() {
 
         {stage === 1 && (
           <>
-          <audio id="bg-music" src="/music/happy-birthday.mp3" autoPlay loop />
+          <audio id="bg-music" src="/Ashniya/music/happy-birthday.mp3" autoPlay loop />
             <h1 className="bigWish">Happy Birthday 💕</h1>
             <p className="subtitle" style={{color:'#ff85c0'}}>
               We may have lost touch, but a part of me still wishes your day
@@ -444,7 +444,7 @@ export default function App() {
 
         {stage === 2 && (
           <>
-            <audio id="bg-music" src="/music/song.mp3" autoPlay loop />
+            <audio id="bg-music" src="/Ashniya/music/song.mp3" autoPlay loop />
             <h3 style={{fontFamily:'Dancing Script, cursive',fontSize:22}}>✨ Magical Memories ✨</h3>
             <p className="subtitle" style={{color:'#ff85c0'}}>
               Here are a few moments that always bring a smile. 😌❤️‍🩹
@@ -453,7 +453,7 @@ export default function App() {
               <div
                 key={i}
                 className="memoryCard"
-                style={{backgroundImage:`url('/photos/photo${i}.jpg')`}}
+                style={{backgroundImage:`url('Ashniya/photos/photo${i}.jpg')`}}
                 onClick={()=>setStage(3)}
               ></div>
             ))}
@@ -464,7 +464,7 @@ export default function App() {
         {stage === 3 && (
           <>
             <h3 style={{fontFamily:'Dancing Script, cursive',fontSize:22}}>My Letter 💌</h3>
-            <p style={{textAlign:'left', fontSize:17, lineHeight:1.6,color:'#ff85c0'}}>First of all wish you a many many happy return of the day and thankyou tu letter paryant alis ani sorry birthday cha divshi tujha mood kharab kela asel tr ny ny boltey tri me ky n ky karto tya sathi pn. I know me khup trass dila 2 mahine na nit bolo n nit rhat hoto nasti chid chid keli tyat tu boli pn ki ny sahan hot tri me ny aikla bcoz mala vattat hota ki tu chidshil rusun bashil pn asa kadhich vatla ny ki end hoil sagla me safe feel karat hoto tujha sobat ani ticha nantr pn prem zhal mala tujhavr pn mala tevha te ky dakhvtach ala ny me tevha physically stable disat hoto mentally titkach disturb hoto he tula nit sangtach navta yet mala bss dokyat kasli tri chid chid possessiveness tu pn cheat karshil hyacha vicharni kadhi tula samjun gheta alach ny tu sodun geli tevha pn tula kasa majha kade anta yeil hach vichar karat hoto tujha vr prem kami hakka jasta dakhvat hoto te kuthe tri tula irritate karat hota ani tevha cha condition madhe mala te samjlach ny nantr time gela radun zhal chid chid karun zhal shanta zhalo to paryant me sagla harun baslo hoto tula ani swatala. I lost my self yrr me move on karycha pn try kela me asa navto ki breakup zhal ani ticha athvanitch rhail but tujha athvanit rahilo asa ny ki koni ala ny try kela ny but ny zhal majha kadun. Mala khup bolycha ahe tujha sobat khup ky sangycha ahe pn atta ny force karnar me tula bss tevha majha kadun jitka chuka zhaly astil jamla tr maaf kr... One again sorry for everything 🙃 and Happy Birthday baal❤‍🩹 ani 1% hope thevun I'll always wait for you... </p>
+            <p style={{textAlign:'left', fontSize:17, lineHeight:1.6,color:'#ff85c0'}}> First of all wish you a many many happy return of the day and thankyou tu letter paryant alis ani sorry birthday cha divshi tujha mood kharab kela asel tr ny ny boltey tri me ky n ky karto tya sathi pn. I know me khup trass dila 2 mahine na nit bolo n nit rhat hoto nasti chid chid keli tyat tu boli pn ki ny sahan hot tri me ny aikla bcoz mala vattat hota ki tu chidshil rusun bashil pn asa kadhich vatla ny ki end hoil sagla me safe feel karat hoto tujha sobat ani ticha nantr pn prem zhal mala tujhavr pn mala tevha te ky dakhvtach ala ny me tevha physically stable disat hoto mentally titkach disturb hoto he tula nit sangtach navta yet mala bss dokyat kasli tri chid chid possessiveness tu pn cheat karshil hyacha vicharni kadhi tula samjun gheta alach ny tu sodun geli tevha pn tula kasa majha kade anta yeil hach vichar karat hoto tujha vr prem kami hakka jasta dakhvat hoto te kuthe tri tula irritate karat hota ani tevha cha condition madhe mala te samjlach ny nantr time gela radun zhal chid chid karun zhal shanta zhalo to paryant me sagla harun baslo hoto tula ani swatala. I lost my self yrr me move on karycha pn try kela me asa navto ki breakup zhal ani ticha athvanitch rhail but tujha athvanit rahilo asa ny ki koni ala ny try kela ny but ny zhal majha kadun. Mala khup bolycha ahe tujha sobat khup ky sangycha ahe pn atta ny force karnar me tula bss tevha majha kadun jitka chuka zhaly astil jamla tr maaf kr... One again sorry for everything 🙃 and Happy Birthday baal❤‍🩹 ani 1% hope thevun I'll always wait for you... </p>
             <button className="btn" onClick={()=>setStage(4)}>Reveal Final Note 💖</button>
           </>
         )}
